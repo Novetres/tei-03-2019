@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "Atualizando as lista do Apt"   
+echo -e "Atualizando as listas do Apt"   
     apt update
 
 echo -e "Atualizando os softwares"
