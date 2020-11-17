@@ -17,9 +17,9 @@ echo -e "Removendo software"
     apt -y autoclean
     apt clean
 
-echo -e "Sistema atualizadi, pressione <Enter> para o reboot"
+echo -e "Sistema atualizado, pressione <Enter> para o reboot"
 read 
-sleep
+sleep 5 
     reboot
 
-    
+
