@@ -12,7 +12,7 @@ echo -e "Forçando a atualização do sistema"
 echo -e "Forçando a atualização de segurança"
     apt -y dist-upgrade    
 
-echo -e "Removendo software"
+echo -e "Removendo softwares desnecessários"
     apt -y autoremove
     apt -y autoclean
     apt clean
